@@ -1,0 +1,118 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    },
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      // "j k": "vim::NormalBefore"
+    },
+  },
+  {
+    "unbind": {
+      "ctrl-q": "zed::Quit",
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-q": "agent::ToggleFocus",
+    },
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "ctrl-shift-#": "agent::ToggleFocus",
+    },
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "unbind": {
+      "space": "project_panel::Open",
+    },
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "ctrl-- enter": "project_panel::Cut",
+    },
+  },
+  {
+    "context": "ProjectPanel",
+    "unbind": {
+      "ctrl-x": "project_panel::Cut",
+    },
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "ctrl-b": "workspace::ToggleLeftDock",
+    },
+  },
+  {
+    "context": "Terminal",
+    "unbind": {
+      "ctrl-b": ["terminal::SendKeystroke", "ctrl-b"],
+    },
+  },
+  {
+    "bindings": {
+      "ctrl-g": "git_panel::Toggle",
+    },
+  },
+  {
+    "bindings": {
+      "ctrl-b": "project_panel::Toggle",
+    },
+  },
+  {
+    "context": "Workspace",
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-shift--": "project_symbols::Toggle",
+    },
+  },
+  {
+    "context": "Workspace",
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-´": "project_symbols::Toggle",
+    },
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "ctrl-t": "project_symbols::Toggle",
+    },
+  },
+  {
+    "bindings": {
+      "ctrl-t": "terminal_panel::Toggle",
+    },
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "ctrl-ö": "terminal_panel::Toggle",
+    },
+  },
+  {
+    "bindings": {
+      "ctrl-q": "agent::Toggle",
+    },
+  },
+]

@@ -1,0 +1,74 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "cli_default_open_behavior": "existing_window",
+  "git": {
+    "inline_blame": {
+      "enabled": false,
+    },
+  },
+  "global_lsp_settings": {
+    "button": false,
+  },
+  "search": {
+    "button": false,
+  },
+  "collaboration_panel": {
+    "button": false,
+  },
+  "debugger": {
+    "button": false,
+  },
+  "outline_panel": {
+    "button": false,
+  },
+  "status_bar": {
+    "line_endings_button": true,
+    "cursor_position_button": false,
+  },
+  "languages": {
+    "YAML": {
+      "show_edit_predictions": false,
+    },
+  },
+  "agent_servers": {
+    "github-copilot-cli": {
+      "default_config_options": {
+        "allow_all": "off",
+      },
+      "type": "registry",
+    },
+  },
+  "edit_predictions": {
+    "provider": "copilot",
+  },
+  "icon_theme": "Material Icon Theme",
+  "terminal": {
+    "shell": {
+      "program": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    },
+    "font_family": "JetBrains Mono",
+  },
+  "base_keymap": "VSCode",
+  "minimap": {
+    "show": "never",
+  },
+  "buffer_font_family": "JetBrains Mono",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "ui_font_size": 14.0,
+  "buffer_font_size": 14.0,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Dark Theme",
+  },
+}
